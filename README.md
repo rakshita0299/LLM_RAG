@@ -14,7 +14,7 @@ Welcome to the **Dynamic Automation API**! This project is a Python-based API se
 ## Project Structure
 
 ```
-📦 project_root
+project_root
 ├── api.py              # FastAPI backend
 ├── functions.py        # Predefined + user-defined functions
 ├── vector_store.py     # Function retrieval using FAISS
@@ -77,6 +77,14 @@ POST /add_function
 
 ---
 
+## Dependencies
+To run this project, you need to install the following dependencies:
+```sh
+pip install fastapi pydantic sentence-transformers faiss-cpu psutil uvicorn
+```
+
+---
+
 ## Inside the Code
 ### 1. API Endpoints (api.py)
 - `/execute`: Matches the best function and executes it.
@@ -107,7 +115,7 @@ POST /add_function
 ## Getting Started
 ### 1. Install Dependencies
 ```sh
-pip install fastapi pydantic sentence-transformers faiss-cpu psutil
+pip install fastapi pydantic sentence-transformers faiss-cpu psutil uvicorn
 ```
 
 ### 2. Run the API
@@ -126,5 +134,5 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ### Contributions Welcome!
-Feel free to **fork** this repo
+Feel free to **fork** this repo, **submit issues**, and **improve** the project!
 
