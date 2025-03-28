@@ -126,5 +126,5 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ### Contributions Welcome!
-Feel free to **fork** this repo, **submit issues**, and **improve** the project!
+Feel free to **fork** this repo
 
